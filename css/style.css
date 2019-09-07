@@ -218,8 +218,14 @@ footer p {
     margin-top: 25px;
   }
 
-/* Item */
+  .titles h1 {
+    font-size: 24px;
+  }
 
+  .titles h3 {
+    font-size: 14px;
+  }
+/* Item */
 
   .item {
     margin: 0;
