@@ -233,8 +233,6 @@ footer p {
     width: 50%;
   }
 
-
-
 }
 
 /* Mobile query */
@@ -263,13 +261,13 @@ footer p {
 
   /* Hero */
 
-  .hero p{
+  .hero p {
     font-size: 45px;
   }
 
   /* Item  */
 
-  .item  {
+  .item {
     width: 100%;
   }
 
