@@ -90,11 +90,20 @@ header h1.logo img {
   justify-content: space-between;
 }
 
+.item p {
+  height: 100%;
+}
+
+.img-container {
+  height: 80%;
+}
+
 /* item styles */
 
 .item {
   margin-top: 5px;
   width: 33%;
+  margin-bottom: 5px;
 }
 
 .item img {
@@ -118,11 +127,19 @@ header h1.logo img {
   text-transform: uppercase;
 }
 
+h2.description {
+  font-size: 18px;
+}
+
+h5.description {
+  font-size: 12px;
+  font-weight: 100;
+}
 
 /* footer */
 
 footer p {
-  margin-top: 15px;
+  margin-top: 5px;
   padding-top:10px;
   color: #2d3c49;
   border-top: 2px solid #7d97ad;
@@ -146,15 +163,22 @@ footer p {
     width:100%;
   }
 
-}
-
-@media screen and (max-width: 700px) {
-
 /* Header */
 
   .titles {
     padding-right: 10px;
   }
+
+  .description {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+
+/* Header */
 
   .titles h1 {
     font-size: 32px;
@@ -175,8 +199,7 @@ footer p {
   }
 
   .item p {
-    overflow: hidden;
-    height: 80%;
+    height: 100%;
   }
 
 }
@@ -197,9 +220,6 @@ footer p {
 
 /* Item */
 
-  .description {
-    display: none;
-  }
 
   .item {
     margin: 0;
@@ -207,9 +227,7 @@ footer p {
     width: 50%;
   }
 
-  .item p {
-    height: 100%;
-  }
+
 
 }
 
@@ -219,18 +237,18 @@ footer p {
 
 /* Header */
 
-header h1.logo img {
-  width: 70px;
-  padding: 5px;
-}
+  header h1.logo img {
+    width: 70px;
+    padding: 5px;
+  }
 
   .titles {
-    margin-top: 4%;
+    margin-top: 5%;
     padding-right: 8px;
   }
 
   .titles h1 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .titles h3 {
@@ -248,5 +266,18 @@ header h1.logo img {
   .item  {
     width: 100%;
   }
+
+  .item.img-container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+/* Footer */
+
+footer p {
+  padding-top: 5px;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
 
 }
